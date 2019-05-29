@@ -82,9 +82,9 @@ public class ChildrenMainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 System.out.println("DASHBOARD");
-                Intent intent = new Intent(ChildrenMainActivity.this, ChildDashOptions.class);
-                startActivity(intent);
-                finish();
+//                Intent intent = new Intent(ChildrenMainActivity.this, ChildDashOptions.class);
+//                startActivity(intent);
+//                finish();
 
 
             }
