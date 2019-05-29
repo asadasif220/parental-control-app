@@ -54,9 +54,12 @@ public class MainActivity extends AppCompatActivity {
 //        currentEmail = (TextView) findViewById(R.id.current_parent_email);
         signOut = findViewById(R.id.sign_out2);
         viewChild_button = findViewById(R.id.button_view_child);
-        btncalllog = findViewById(R.id.call_log);
-        btnHistory = findViewById(R.id.Bhistory);
-        btngetmsg = findViewById(R.id.getmsg);
+
+        /***/
+//        btncalllog = findViewById(R.id.call_log);
+//        btnHistory = findViewById(R.id.Bhistory);
+//        btngetmsg = findViewById(R.id.getmsg);
+        /***/
         btnlock = findViewById(R.id.applock);
 //        btnRemoveUser = (Button) findViewById(R.id.btnRemoveUser) ;
 
@@ -120,31 +123,31 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnHistory.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, BrowserHistory.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
-        btncalllog.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CustomCallLog.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-        btngetmsg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, GetMessage.class);
-                startActivity(intent);
-                finish();
-            }
-        });
+//        btnHistory.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, BrowserHistory.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        });
+//
+//        btncalllog.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, CustomCallLog.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        });
+//        btngetmsg.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, GetMessage.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        });
 
         btnlock.setOnClickListener(new View.OnClickListener() {
             @Override

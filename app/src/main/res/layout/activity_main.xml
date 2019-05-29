@@ -13,7 +13,9 @@
         android:layout_width="157dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="220dp"
         android:background="@color/colorAccent2"
         android:text="@string/btn_sign_out"
         android:textColor="@android:color/white"
@@ -23,53 +25,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/applock" />
 
-    <Button
-        android:id="@+id/getmsg"
-        style="?android:textAppearanceSmall"
-        android:layout_width="157dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@color/colorAccent2"
-        android:text="MESSAGE"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button_view_child"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+    <!--<Button-->
+    <!--android:id="@+id/getmsg"-->
+    <!--style="?android:textAppearanceSmall"-->
+    <!--android:layout_width="157dp"-->
+    <!--android:layout_height="42dp"-->
+    <!--android:background="@color/colorAccent2"-->
+    <!--android:text="MESSAGE"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textStyle="bold"-->
+    <!--tools:layout_editor_absoluteX="127dp"-->
+    <!--tools:layout_editor_absoluteY="131dp" />-->
 
-    <Button
-        android:id="@+id/Bhistory"
-        style="?android:textAppearanceSmall"
-        android:layout_width="157dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@color/colorAccent2"
-        android:text="HISTORY"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/call_log"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_view_child" />
+    <!--<Button-->
+    <!--android:id="@+id/Bhistory"-->
+    <!--style="?android:textAppearanceSmall"-->
+    <!--android:layout_width="157dp"-->
+    <!--android:layout_height="42dp"-->
+    <!--android:background="@color/colorAccent2"-->
+    <!--android:text="HISTORY"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textStyle="bold"-->
+    <!--tools:layout_editor_absoluteX="127dp"-->
+    <!--tools:layout_editor_absoluteY="331dp" />-->
 
-    <Button
-        android:id="@+id/call_log"
-        style="?android:textAppearanceSmall"
-        android:layout_width="157dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@color/colorAccent2"
-        android:text="CALL LOG"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/applock"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Bhistory" />
+    <!--<Button-->
+    <!--android:id="@+id/call_log"-->
+    <!--style="?android:textAppearanceSmall"-->
+    <!--android:layout_width="157dp"-->
+    <!--android:layout_height="42dp"-->
+    <!--android:background="@color/colorAccent2"-->
+    <!--android:text="CALL LOG"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textStyle="bold"-->
+    <!--tools:layout_editor_absoluteX="127dp"-->
+    <!--tools:layout_editor_absoluteY="431dp" />-->
 
     <TextView
         android:id="@+id/textView"
@@ -95,15 +85,15 @@
         android:layout_width="157dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="59dp"
         android:layout_marginEnd="8dp"
         android:background="@color/colorAccent2"
         android:text="TIMER LOCK"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/sign_out2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/call_log" />
+        app:layout_constraintTop_toBottomOf="@+id/button_view_child" />
 
     <!--<Button-->
     <!--android:id="@+id/btnRemoveUser"-->
@@ -131,15 +121,15 @@
         android:layout_width="157dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="170dp"
         android:layout_marginEnd="8dp"
         android:background="@color/colorAccent2"
         android:text="@string/btn_viewChild"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/Bhistory"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/getmsg" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <!--<TextView-->
     <!--android:id="@+id/current_parent_email"-->
