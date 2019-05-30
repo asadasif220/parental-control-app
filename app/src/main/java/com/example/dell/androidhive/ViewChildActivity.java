@@ -178,7 +178,7 @@ public class ViewChildActivity extends AppCompatActivity {
 
         buttonBack = findViewById(R.id.button_Back);
         buttonAddChld = findViewById(R.id.button_AddChild);
-        buttonUpdate = findViewById(R.id.button_UpdateList);
+//        buttonUpdate = findViewById(R.id.button_UpdateList);
         childrenRreference = FirebaseDatabase.getInstance().getReference("Users").child("Children");
 
         recyclerview = findViewById(R.id.rview);
@@ -221,16 +221,16 @@ public class ViewChildActivity extends AppCompatActivity {
             }
         });
 
-        buttonUpdate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                System.out.println("UPDATE WORKING.");
-                Connect_xampp();
-                Intent intent = new Intent(ViewChildActivity.this, AppList.class);
-                startActivity(intent);
-                finish();
-            }
-        });
+//        buttonUpdate.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                System.out.println("UPDATE WORKING.");
+//                Connect_xampp();
+//                Intent intent = new Intent(ViewChildActivity.this, AppList.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        });
 
     }
     private void Connect_xampp() {
